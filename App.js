@@ -6,7 +6,10 @@
  * @flow strict-local
  */
 
-import MENU from './menu'
+import MENU from './menu';
+//import { enableScreens } from 'react-native-screens';
+//import 'react-native-gesture-handler';
+//enableScreens();
 
 import React from 'react';
 import type {Node} from 'react';

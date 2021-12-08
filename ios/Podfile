@@ -12,6 +12,12 @@ target 'clinicaDental' do
     :hermes_enabled => false
   )
 
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
   target 'clinicaDentalTests' do
     inherit! :complete
     # Pods for testing
